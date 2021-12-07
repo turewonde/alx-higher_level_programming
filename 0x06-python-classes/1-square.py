@@ -2,9 +2,6 @@
 """Define a class Square."""
 
 class Square:
-    """ Represent a square."""
-
+    """A class that defines a Square by size"""
     def __init__(self, size):
-        """Square with size"""
-
-        self.__size = size  #using __size becuse of private instance attribute
+        self.__size = size
